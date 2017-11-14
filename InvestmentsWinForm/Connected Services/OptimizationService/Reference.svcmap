@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f0d9ff84-4ea5-43fe-a9c6-438db5399f86" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:35014/OptimizationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OptimizationService.xsd" MetadataType="Schema" ID="975a9aff-048d-4098-a17a-5fc4142a8640" SourceId="1" SourceUrl="http://localhost:35014/OptimizationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="OptimizationService.disco" MetadataType="Disco" ID="3f2c6c09-c65d-4c5e-8470-7a7b22ecb08d" SourceId="1" SourceUrl="http://localhost:35014/OptimizationService.svc?disco" />
+    <MetadataFile FileName="OptimizationService1.xsd" MetadataType="Schema" ID="2fe26f33-a2ba-4c0a-8a91-0371ed570e9e" SourceId="1" SourceUrl="http://localhost:35014/OptimizationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="72e5ba83-7f87-4d4f-a270-1d666ee4daad" SourceId="1" SourceUrl="http://localhost:35014/OptimizationService.svc?wsdl" />
+    <MetadataFile FileName="OptimizationService2.xsd" MetadataType="Schema" ID="230ca4eb-4c97-4ab2-b5e2-67d9eb1b8539" SourceId="1" SourceUrl="http://localhost:35014/OptimizationService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
