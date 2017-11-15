@@ -4,7 +4,12 @@
   <xs:element name="DoSimplex">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="value" type="xs:int" />
+        <xs:element minOccurs="0" name="_sum" type="xs:double" />
+        <xs:element minOccurs="0" name="_ratio" type="xs:double" />
+        <xs:element minOccurs="0" name="_divA" type="xs:double" />
+        <xs:element minOccurs="0" name="_divB" type="xs:double" />
+        <xs:element minOccurs="0" name="_limA" type="xs:double" />
+        <xs:element minOccurs="0" name="_limB" type="xs:double" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

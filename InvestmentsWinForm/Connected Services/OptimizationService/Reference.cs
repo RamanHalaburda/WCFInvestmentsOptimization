@@ -16,10 +16,10 @@ namespace InvestmentsWinForm.OptimizationService {
     public interface IOptimizationService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IOptimizationService/DoSimplex", ReplyAction="http://tempuri.org/IOptimizationService/DoSimplexResponse")]
-        double[] DoSimplex(int value);
+        double[] DoSimplex(double _sum, double _ratio, double _divA, double _divB, double _limA, double _limB);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IOptimizationService/DoSimplex", ReplyAction="http://tempuri.org/IOptimizationService/DoSimplexResponse")]
-        System.Threading.Tasks.Task<double[]> DoSimplexAsync(int value);
+        System.Threading.Tasks.Task<double[]> DoSimplexAsync(double _sum, double _ratio, double _divA, double _divB, double _limA, double _limB);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IOptimizationService/DoBionic", ReplyAction="http://tempuri.org/IOptimizationService/DoBionicResponse")]
         double[] DoBionic(int value);
@@ -55,12 +55,12 @@ namespace InvestmentsWinForm.OptimizationService {
                 base(binding, remoteAddress) {
         }
         
-        public double[] DoSimplex(int value) {
-            return base.Channel.DoSimplex(value);
+        public double[] DoSimplex(double _sum, double _ratio, double _divA, double _divB, double _limA, double _limB) {
+            return base.Channel.DoSimplex(_sum, _ratio, _divA, _divB, _limA, _limB);
         }
         
-        public System.Threading.Tasks.Task<double[]> DoSimplexAsync(int value) {
-            return base.Channel.DoSimplexAsync(value);
+        public System.Threading.Tasks.Task<double[]> DoSimplexAsync(double _sum, double _ratio, double _divA, double _divB, double _limA, double _limB) {
+            return base.Channel.DoSimplexAsync(_sum, _ratio, _divA, _divB, _limA, _limB);
         }
         
         public double[] DoBionic(int value) {

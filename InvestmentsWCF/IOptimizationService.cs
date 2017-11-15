@@ -13,7 +13,7 @@ namespace InvestmentsWCF
     public interface IOptimizationService
     {
         [OperationContract]
-        List<Double> DoSimplex(int value);
+        double[] DoSimplex(double _sum, double _ratio, double _divA, double _divB, double _limA, double _limB);
 
         [OperationContract]
         List<Double> DoBionic(int value);

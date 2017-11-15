@@ -10,9 +10,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentsWinForm", "Inves
 		{A71D129B-8F46-4A71-9113-E90BCBC2ADD2} = {A71D129B-8F46-4A71-9113-E90BCBC2ADD2}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplex", "Simplex\Simplex.csproj", "{293C879E-54F9-4C44-A99B-08E4368958DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simplex", "Simplex\Simplex.csproj", "{293C879E-54F9-4C44-A99B-08E4368958DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bionic", "Bionic\Bionic.csproj", "{026BC507-BA72-4623-AB70-5FD6A58C2A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bionic", "Bionic\Bionic.csproj", "{026BC507-BA72-4623-AB70-5FD6A58C2A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentsMVC", "InvestmentsMVC\InvestmentsMVC.csproj", "{164A1F04-8C30-4067-A9C1-E33D7F73BD73}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A71D129B-8F46-4A71-9113-E90BCBC2ADD2} = {A71D129B-8F46-4A71-9113-E90BCBC2ADD2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +41,10 @@ Global
 		{026BC507-BA72-4623-AB70-5FD6A58C2A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{026BC507-BA72-4623-AB70-5FD6A58C2A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{026BC507-BA72-4623-AB70-5FD6A58C2A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164A1F04-8C30-4067-A9C1-E33D7F73BD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164A1F04-8C30-4067-A9C1-E33D7F73BD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164A1F04-8C30-4067-A9C1-E33D7F73BD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164A1F04-8C30-4067-A9C1-E33D7F73BD73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

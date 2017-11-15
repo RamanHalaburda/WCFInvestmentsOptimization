@@ -1,0 +1,9 @@
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\obj\Debug\netcoreapp2.0\Bionic.csprojResolveAssemblyReference.cache
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\obj\Debug\netcoreapp2.0\Bionic.csproj.CoreCompileInputs.cache
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\obj\Debug\netcoreapp2.0\Bionic.AssemblyInfoInputs.cache
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\obj\Debug\netcoreapp2.0\Bionic.AssemblyInfo.cs
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\bin\Debug\netcoreapp2.0\Bionic.deps.json
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\bin\Debug\netcoreapp2.0\Bionic.dll
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\bin\Debug\netcoreapp2.0\Bionic.pdb
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\obj\Debug\netcoreapp2.0\Bionic.dll
+E:\study\1_Study\BarsuEngineeringFaculty\ProjMVS2017\WCFInvestmentsOptimization\Bionic\obj\Debug\netcoreapp2.0\Bionic.pdb
